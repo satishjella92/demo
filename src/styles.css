@@ -1,0 +1,505 @@
+/* You can add global styles to this file, and also import other style files */
+.ui-tabview.ui-tabview-top,
+.ui-tabview.ui-tabview-bottom,
+.ui-tabview.ui-tabview-left,
+.ui-tabview.ui-tabview-right{
+  border:0 none;
+}
+
+.ui-tabview{
+  border:0 none;
+  padding:0;
+}
+
+.ui-tabview.ui-tabview-top .ui-tabview-nav,
+.ui-tabview.ui-tabview-bottom .ui-tabview-nav,
+.ui-tabview.ui-tabview-left .ui-tabview-nav,
+.ui-tabview.ui-tabview-right .ui-tabview-nav{
+  padding: 0;
+  border: 0 none;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+}
+
+
+.ui-tabview.ui-tabview-top
+.ui-tabview-nav li,
+
+.ui-tabview.ui-tabview-bottom
+.ui-tabview-nav li,
+
+.ui-tabview.ui-tabview-left
+.ui-tabview-nav li,
+
+.ui-tabview.ui-tabview-right
+.ui-tabview-nav li {
+
+  position: static;
+
+  -moz-transition:
+    background-color 0.3s;
+
+  -o-transition:
+    background-color 0.3s;
+
+  -webkit-transition:
+    background-color 0.3s;
+
+  transition: background-color
+  0.3s;
+
+  -moz-border-radius:
+    0;
+
+  -webkit-border-radius:
+    0;
+
+  border-radius:
+    0;
+
+  margin: 0;
+
+  box-sizing: border-box;
+
+  background-color:
+  white;
+
+  border: 0
+  none;
+
+}
+
+.ui-tabview.ui-tabview-top
+.ui-tabview-nav li {
+
+  border-bottom:
+  4px solid grey;
+
+}
+
+.ui-tabview.ui-tabview-bottom
+.ui-tabview-nav li {
+
+  border-top: 4px
+  solid grey;
+
+}
+
+.ui-tabview.ui-tabview-left
+.ui-tabview-nav li {
+
+  border-right:
+  4px solid grey;
+
+}
+
+.ui-tabview.ui-tabview-right
+.ui-tabview-nav li {
+
+  border-left:
+  4px solid grey;
+
+}
+
+
+.ui-tabview.ui-tabview-top
+.ui-tabview-nav li.ui-state-default
+a,
+
+.ui-tabview.ui-tabview-bottom
+.ui-tabview-nav li.ui-state-default
+a,
+
+.ui-tabview.ui-tabview-left
+.ui-tabview-nav li.ui-state-default
+a,
+
+.ui-tabview.ui-tabview-right
+.ui-tabview-nav li.ui-state-default
+a {
+
+  padding: 0.375em
+  7.75em;
+
+  color: #D9D7DC;
+
+}
+
+.ui-tabview.ui-tabview-top
+.ui-tabview-nav li.ui-state-default
+a:focus,
+
+.ui-tabview.ui-tabview-bottom
+.ui-tabview-nav li.ui-state-default
+a:focus,
+
+.ui-tabview.ui-tabview-left
+.ui-tabview-nav li.ui-state-default
+a:focus,
+
+.ui-tabview.ui-tabview-right
+.ui-tabview-nav li.ui-state-default
+a:focus {
+
+  outline: 0
+  none;
+
+}
+
+.ui-tabview.ui-tabview-top
+.ui-tabview-nav li:not(.ui-state-active):not(.ui-state-disabled):hover,
+
+.ui-tabview.ui-tabview-bottom
+.ui-tabview-nav li:not(.ui-state-active):not(.ui-state-disabled):hover,
+
+.ui-tabview.ui-tabview-left
+.ui-tabview-nav li:not(.ui-state-active):not(.ui-state-disabled):hover,
+
+.ui-tabview.ui-tabview-right
+.ui-tabview-nav li:not(.ui-state-active):not(.ui-state-disabled):hover
+{
+
+// border-color: red;
+  color: #00ACDC;
+
+}
+
+.ui-tabview.ui-tabview-top
+.ui-tabview-nav li.ui-tabview-outline,
+
+.ui-tabview.ui-tabview-bottom
+.ui-tabview-nav li.ui-tabview-outline,
+
+.ui-tabview.ui-tabview-left
+.ui-tabview-nav li.ui-tabview-outline,
+
+.ui-tabview.ui-tabview-right
+.ui-tabview-nav li.ui-tabview-outline {
+
+  outline: 0
+  none;
+
+}
+
+.ui-tabview.ui-tabview-top
+.ui-tabview-nav li.ui-state-active,
+
+.ui-tabview.ui-tabview-bottom
+.ui-tabview-nav li.ui-state-active,
+
+.ui-tabview.ui-tabview-left
+.ui-tabview-nav li.ui-state-active,
+
+.ui-tabview.ui-tabview-right
+.ui-tabview-nav li.ui-state-active {
+
+  border-color: #00ACDC ;
+  color: #00ACDC ;
+
+}
+
+.ui-tabview.ui-tabview-top
+.ui-tabview-nav li.ui-state-active
+a,
+
+.ui-tabview.ui-tabview-bottom
+.ui-tabview-nav li.ui-state-active
+a,
+
+.ui-tabview.ui-tabview-left
+.ui-tabview-nav li.ui-state-active
+a,
+
+.ui-tabview.ui-tabview-right
+.ui-tabview-nav li.ui-state-active
+a {
+
+  color: #00ACDC;
+
+}
+
+.ui-tabview.ui-tabview-top
+.ui-tabview-nav li.ui-state-active.ui-tabview-outline,
+
+.ui-tabview.ui-tabview-bottom
+.ui-tabview-nav li.ui-state-active.ui-tabview-outline,
+
+.ui-tabview.ui-tabview-left
+.ui-tabview-nav li.ui-state-active.ui-tabview-outline,
+
+.ui-tabview.ui-tabview-right
+.ui-tabview-nav li.ui-state-active.ui-tabview-outline {
+
+//background-color:red;
+
+}
+
+.ui-tabview.ui-tabview-top
+.ui-tabview-navscroller-btn,
+
+.ui-tabview.ui-tabview-bottom
+.ui-tabview-navscroller-btn,
+
+.ui-tabview.ui-tabview-left
+.ui-tabview-navscroller-btn,
+
+.ui-tabview.ui-tabview-right
+.ui-tabview-navscroller-btn {
+
+  background-color:
+  white;
+
+}
+
+.ui-tabview.ui-tabview-top
+.ui-tabview-navscroller-btn:not(.ui-state-active):not(.ui-state-disabled):hover,
+
+.ui-tabview.ui-tabview-bottom
+.ui-tabview-navscroller-btn:not(.ui-state-active):not(.ui-state-disabled):hover,
+
+.ui-tabview.ui-tabview-left
+.ui-tabview-navscroller-btn:not(.ui-state-active):not(.ui-state-disabled):hover,
+
+.ui-tabview.ui-tabview-right
+.ui-tabview-navscroller-btn:not(.ui-state-active):not(.ui-state-disabled):hover {
+
+  color: #00ACDC;
+
+}
+
+.ui-tabview.ui-tabview-top
+.ui-tabview-navscroller-btn.ui-tabview-navscroller-btn-left,
+
+.ui-tabview.ui-tabview-bottom
+.ui-tabview-navscroller-btn.ui-tabview-navscroller-btn-left,
+
+.ui-tabview.ui-tabview-left
+.ui-tabview-navscroller-btn.ui-tabview-navscroller-btn-left,
+
+.ui-tabview.ui-tabview-right
+.ui-tabview-navscroller-btn.ui-tabview-navscroller-btn-left {
+
+  left: 0;
+
+  height: 2.063em;
+
+  border: 0
+  none;
+
+  border-right:
+  1px solid grey;
+
+}
+
+.ui-tabview.ui-tabview-top
+.ui-tabview-navscroller-btn.ui-tabview-navscroller-btn-right,
+
+.ui-tabview.ui-tabview-bottom
+.ui-tabview-navscroller-btn.ui-tabview-navscroller-btn-right,
+
+.ui-tabview.ui-tabview-left
+.ui-tabview-navscroller-btn.ui-tabview-navscroller-btn-right,
+
+.ui-tabview.ui-tabview-right
+.ui-tabview-navscroller-btn.ui-tabview-navscroller-btn-right {
+
+  right: 0;
+
+  height: 2.125em;
+
+  border: 0
+  none;
+
+  border-right:
+  1px solid grey;
+
+}
+
+.ui-tabview.ui-tabview-top
+.ui-tabview-navscroller-btn
+.ui-icon,
+
+.ui-tabview.ui-tabview-bottom
+.ui-tabview-navscroller-btn
+.ui-icon,
+
+.ui-tabview.ui-tabview-left
+.ui-tabview-navscroller-btn
+.ui-icon,
+
+.ui-tabview.ui-tabview-right
+.ui-tabview-navscroller-btn
+.ui-icon {
+
+  margin-top: 0.5em;
+
+}
+
+.ui-tabview.ui-tabview-top
+.ui-tabview-nav li {
+
+// margin-right: 0.125em;
+
+  -moz-border-radius-topleft:
+    0;
+
+  -webkit-border-top-left-radius:
+    0;
+
+  border-top-left-radius:
+    0;
+
+  -moz-border-radius-topright:
+    0;
+
+  -webkit-border-top-right-radius:
+    0;
+
+  border-top-right-radius:
+    0;
+
+}
+
+.ui-tabview.ui-tabview-left
+.ui-tabview-nav,
+
+.ui-tabview.ui-tabview-right
+.ui-tabview-nav {
+
+  border-bottom:
+    none;
+
+}
+
+.ui-tabview.ui-tabview-left
+.ui-tabview-nav li:hover,
+
+.ui-tabview.ui-tabview-right
+.ui-tabview-nav li:hover {
+
+// border: 1px solid #D9D7DC;
+
+}
+
+.ui-tabview.ui-tabview-left
+.ui-tabview-nav li.ui-state-active,
+
+.ui-tabview.ui-tabview-right
+.ui-tabview-nav li.ui-state-active {
+
+  border-color: #00ACDC;
+
+}
+
+.ui-tabview.ui-tabview-bottom
+.ui-tabview-nav li {
+
+  -moz-border-radius-bottomleft:
+    4px;
+
+  -webkit-border-bottom-left-radius:
+    4px;
+
+  border-bottom-left-radius:
+    4px;
+
+  -moz-border-radius-bottomright:
+    4px;
+
+  -webkit-border-bottom-right-radius:
+    4px;
+
+  border-bottom-right-radius:
+    4px;
+
+  margin-right:
+    0.125em;
+
+}
+
+.ui-tabview.ui-tabview-left
+.ui-tabview-nav li {
+
+  -moz-border-radius-topleft:
+    0;
+
+  -webkit-border-top-left-radius:
+    0;
+
+  border-top-left-radius:
+    0;
+
+  -moz-border-radius-bottomleft:
+    0;
+
+  -webkit-border-bottom-left-radius:
+    0;
+
+  border-bottom-left-radius:
+    0;
+
+}
+
+.ui-tabview.ui-tabview-right
+.ui-tabview-nav {
+
+  border:0
+  none;
+
+  height: 9.375em;
+
+}
+
+.ui-tabview.ui-tabview-right
+.ui-tabview-nav li {
+
+  -moz-border-radius-topright:
+    0;
+
+  -webkit-border-top-right-radius:
+    0;
+
+  border-top-right-radius:
+    0;
+
+  -moz-border-radius-bottomright:
+    0;
+
+  -webkit-border-bottom-right-radius:
+    0;
+
+  border-bottom-right-radius:
+    0;
+
+}
+
+.ui-tabview
+.ui-tabview-panel {
+
+  padding: 0.375em
+  0.75em;
+
+}
+
+
+.ui-tabview.ui-tabview-top
+.ui-tabview-nav li:not(.ui-state-active):not(.ui-state-disabled):hover
+a,
+
+.ui-tabview.ui-tabview-bottom
+.ui-tabview-nav li:not(.ui-state-active):not(.ui-state-disabled):hover
+a,
+
+.ui-tabview.ui-tabview-left
+.ui-tabview-nav li:not(.ui-state-active):not(.ui-state-disabled):hover
+a,
+
+.ui-tabview.ui-tabview-right
+.ui-tabview-nav li:hover:not(.ui-state-active):not(.ui-state-disabled):hover
+a {
+
+  color: #00ACDC;
+
+}
+
